@@ -2,7 +2,7 @@
   "name": "govuk-react",
   "version": "0.1.14",
   "scripts": {
-    "start": "start-storybook -p 9009",
+    "start": "start-storybook -p 6006",
     "eslint": "eslint ./src",
     "eslint:fix": "eslint --fix ./src",
     "build": "nwb build-react-component",
@@ -66,9 +66,9 @@
     "react": ">=15"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.3.9",
-    "@storybook/addon-links": "^3.3.9",
-    "@storybook/react": "^3.3.9",
+    "@storybook/addon-actions": "3.2.17",
+    "@storybook/addon-links": "3.2.17",
+    "@storybook/react": "3.2.17",
     "@storybook/storybook-deployer": "^2.2.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -96,6 +96,7 @@
     "inferno": "^3.10.1",
     "jest": "^22.1.2",
     "jest-glamor-react": "^3.3.0",
+    "loki": "^0.6.5",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.7.2",
     "normalize.css": "^7.0.0",
