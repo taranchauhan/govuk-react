@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { shallow, mount, render } from "enzyme";
+import { PNG } from "pngjs";
+
 import Button from "./";
 
 import generateImage from "../../../scripts/generateImage";
@@ -37,6 +39,8 @@ describe("button", () => {
         height: 35
       }
     }).then(image => {
+      const receivedImage = PNG.sync.read(image);
+      console.error(`${receivedImage.height}, ${receivedImage.width}`); //eslint-disable-line
       expect(image).toMatchImageSnapshot();
     }));
 });
