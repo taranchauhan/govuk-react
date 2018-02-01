@@ -25,7 +25,8 @@
       "env": {
         "jest": true,
         "enzyme": true,
-        "browser": true
+        "browser": true,
+        "jasmine": true
       }
     }
   ]

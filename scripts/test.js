@@ -25,7 +25,6 @@ if (!process.env.CI && argv.indexOf('--coverage') < 0) {
 
 if (process.env.CI) {
   argv.push("--runInBand");
-  jest.setTimeout(20000); // 20 second timeout
 }
 
 jest.run(argv);
