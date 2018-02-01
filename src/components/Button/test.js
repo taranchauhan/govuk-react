@@ -35,12 +35,10 @@ describe("button", () => {
   it("has no visual regressions", () =>
     generateImage(wrapper, {
       viewport: {
-        width: 87,
-        height: 35
+        width: 100,
+        height: 40
       }
     }).then(image => {
-      const receivedImage = PNG.sync.read(image);
-      console.error(`${receivedImage.height}, ${receivedImage.width}`); //eslint-disable-line
       expect(image).toMatchImageSnapshot();
     }));
 });
