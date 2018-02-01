@@ -8,7 +8,7 @@
     "build": "nwb build-react-component",
     "clean": "rimraf lib",
     "flow": "flow",
-    "test": "CI=true npm run test:unit && npm run eslint && npm run flow",
+    "test": "(CI=true npm run test:unit) && npm run eslint && npm run flow",
     "test:unit": "node scripts/test.js --env=jsdom",
     "test:debug": "node  --inspect-brk scripts/test.js --runInBand --env=jsdom",
     "test:snapshot": "npm run test:unit -- -u",
@@ -66,7 +66,7 @@
     "react": ">=15"
   },
   "devDependencies": {
-    "@penx/component-image": "^1.0.1",
+    "@penx/component-image": "^1.0.2",
     "@storybook/addon-actions": "^3.3.9",
     "@storybook/addon-links": "^3.3.9",
     "@storybook/react": "^3.3.9",

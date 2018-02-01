@@ -8,6 +8,10 @@ const generateImage = (component, config) =>
       __dirname,
       "../node_modules/normalize.css/normalize.css"
     ),
+    // TODO: no-sandbox has security issues and should only be enabled on Travis
+    // https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+    // https://docs.travis-ci.com/user/chrome#Sandboxing
+    puppeteer: { args: ["--no-sandbox", "--disable-setuid-sandbox"] },
     renderer: renderGlamorous,
     ...config
   });
