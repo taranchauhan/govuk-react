@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { shallow, mount, render } from "enzyme";
-import { PNG } from "pngjs";
 
 import Button from "./";
 
