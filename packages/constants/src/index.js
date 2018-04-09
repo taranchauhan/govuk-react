@@ -1,3 +1,9 @@
+/* eslint-disable */
+const govukFrontendToolkitColours = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./test.scss');
+export const COLOUR = govukFrontendToolkitColours || 'cats';
+console.log('govuk_frontend_toolkit colours', COLOUR);
+/* eslint-enable */
+
 export * from './spacing';
 export * from './typography';
 

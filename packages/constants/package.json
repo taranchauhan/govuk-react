@@ -2,7 +2,11 @@
   "name": "@govuk-react/constants",
   "version": "0.1.26",
   "dependencies": {
-    "govuk-colours": "^1.0.3"
+    "govuk-colours": "^1.0.3",
+    "node-sass": "^4.8.3",
+    "sass-extract": "^2.1.0",
+    "sass-extract-js": "^0.3.0",
+    "sass-extract-loader": "^1.1.0"
   },
   "peerDependencies": {
     "glamorous": ">=4",
@@ -15,8 +19,12 @@
     "@storybook/react": "^3.3.14",
     "cross-env": "^5.1.4",
     "enzyme": "^3.3.0",
+    "node-sass": "^4.7.2",
     "react-dom": "^16.2.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "sass-extract": "^2.1.0",
+    "sass-extract-js": "^0.3.0",
+    "sass-extract-loader": "^1.1.0"
   },
   "scripts": {
     "build": "npm run build:lib && npm run build:es",
