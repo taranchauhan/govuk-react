@@ -1,6 +1,6 @@
 /* eslint-disable */
-const govukFrontendToolkitColours = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./test.scss');
-export const COLOUR = govukFrontendToolkitColours || 'cats';
+const govukFrontendToolkitColours = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!../../../node_modules/govuk_frontend_toolkit/stylesheets/colours/_palette.scss');
+export const COLOUR = govukFrontendToolkitColours;
 console.log('govuk_frontend_toolkit colours', COLOUR);
 /* eslint-enable */
 

@@ -2,11 +2,7 @@
   "name": "@govuk-react/constants",
   "version": "0.1.26",
   "dependencies": {
-    "govuk-colours": "^1.0.3",
-    "node-sass": "^4.8.3",
-    "sass-extract": "^2.1.0",
-    "sass-extract-js": "^0.3.0",
-    "sass-extract-loader": "^1.1.0"
+    "govuk-colours": "^1.0.3"
   },
   "peerDependencies": {
     "glamorous": ">=4",
@@ -17,6 +13,7 @@
     "@babel/cli": "^7.0.0-beta.40",
     "@storybook/addon-actions": "^3.3.14",
     "@storybook/react": "^3.3.14",
+    "govuk-elements-sass": "^3.1.2",
     "cross-env": "^5.1.4",
     "enzyme": "^3.3.0",
     "node-sass": "^4.7.2",

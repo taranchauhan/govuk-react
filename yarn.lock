@@ -5585,6 +5585,16 @@ govuk-colours@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/govuk-colours/-/govuk-colours-1.0.3.tgz#41d983693626dbaadb05594c5931a51696f79488"
 
+govuk-elements-sass@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/govuk-elements-sass/-/govuk-elements-sass-3.1.2.tgz#4c79a6893c500e5c817ade8d5008e709f718a3c3"
+  dependencies:
+    govuk_frontend_toolkit "^7.1.0"
+
+govuk_frontend_toolkit@^7.1.0:
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/govuk_frontend_toolkit/-/govuk_frontend_toolkit-7.4.2.tgz#67c0b386c2761272464322ed1fc22db38d69afc3"
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
@@ -8188,7 +8198,7 @@ node-pre-gyp@^0.6.39:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-sass@^4.8.3:
+node-sass@^4.7.2:
   version "4.8.3"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.8.3.tgz#d077cc20a08ac06f661ca44fb6f19cd2ed41debb"
   dependencies:
