@@ -824,6 +824,189 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@govuk-frontend/all@0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/all/-/all-0.0.26-alpha.tgz#c878558adbf169711afbf11bdf8d1b3bbdeb8bc8"
+  dependencies:
+    "@govuk-frontend/back-link" "^0.0.26-alpha"
+    "@govuk-frontend/breadcrumbs" "^0.0.26-alpha"
+    "@govuk-frontend/button" "^0.0.26-alpha"
+    "@govuk-frontend/checkboxes" "^0.0.26-alpha"
+    "@govuk-frontend/date-input" "^0.0.26-alpha"
+    "@govuk-frontend/details" "^0.0.26-alpha"
+    "@govuk-frontend/error-message" "^0.0.26-alpha"
+    "@govuk-frontend/error-summary" "^0.0.26-alpha"
+    "@govuk-frontend/fieldset" "^0.0.26-alpha"
+    "@govuk-frontend/file-upload" "^0.0.26-alpha"
+    "@govuk-frontend/footer" "^0.0.26-alpha"
+    "@govuk-frontend/icons" "^0.0.26-alpha"
+    "@govuk-frontend/input" "^0.0.26-alpha"
+    "@govuk-frontend/label" "^0.0.26-alpha"
+    "@govuk-frontend/panel" "^0.0.26-alpha"
+    "@govuk-frontend/phase-banner" "^0.0.26-alpha"
+    "@govuk-frontend/radios" "^0.0.26-alpha"
+    "@govuk-frontend/select" "^0.0.26-alpha"
+    "@govuk-frontend/skip-link" "^0.0.26-alpha"
+    "@govuk-frontend/table" "^0.0.26-alpha"
+    "@govuk-frontend/tag" "^0.0.26-alpha"
+    "@govuk-frontend/textarea" "^0.0.26-alpha"
+    "@govuk-frontend/warning-text" "^0.0.26-alpha"
+
+"@govuk-frontend/back-link@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/back-link/-/back-link-0.0.26-alpha.tgz#736724827701c136d2a65fc656ab03aa352ba708"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/breadcrumbs@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/breadcrumbs/-/breadcrumbs-0.0.26-alpha.tgz#55b33e0a4786f426439a2ff1498ccacc438ebba9"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/icons" "^0.0.26-alpha"
+
+"@govuk-frontend/button@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/button/-/button-0.0.26-alpha.tgz#5c3018cebd4f93a7cf7f61bbed02c95bfd80153b"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/icons" "^0.0.26-alpha"
+
+"@govuk-frontend/checkboxes@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/checkboxes/-/checkboxes-0.0.26-alpha.tgz#697c99f28bbe9b803685764ef5633e23c150f3b3"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/label" "^0.0.26-alpha"
+
+"@govuk-frontend/date-input@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/date-input/-/date-input-0.0.26-alpha.tgz#1e659ed259fd84c22d17dff3b88b90806c11078c"
+  dependencies:
+    "@govuk-frontend/error-message" "^0.0.26-alpha"
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/label" "^0.0.26-alpha"
+
+"@govuk-frontend/details@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/details/-/details-0.0.26-alpha.tgz#1ace2f01f6778335d7653fba6d0ef63c6ca57671"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/error-message@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/error-message/-/error-message-0.0.26-alpha.tgz#31830d9b62bf3e3f9f554d5c6ea6fe9aabf63fa4"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/error-summary@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/error-summary/-/error-summary-0.0.26-alpha.tgz#7477dac3b67ef2059df999ab2a3463615c4c36b5"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/fieldset@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/fieldset/-/fieldset-0.0.26-alpha.tgz#627ba40b22c4d815141c26776fbf45ff0fa7b9d1"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/file-upload@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/file-upload/-/file-upload-0.0.26-alpha.tgz#e6bff63f576c91415613f2586cec8b19944449af"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/footer@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/footer/-/footer-0.0.26-alpha.tgz#55b883e7d4c5d67803a5abc6a57226acf1d28c58"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/icons" "^0.0.26-alpha"
+
+"@govuk-frontend/globals@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/globals/-/globals-0.0.26-alpha.tgz#f48be8c8b41d48448e595a87a4165743c7217cc3"
+  dependencies:
+    sass-mq "^3.3.2"
+
+"@govuk-frontend/icons@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/icons/-/icons-0.0.26-alpha.tgz#b6ab99835f1504b55e74032e9725af3a03d6f7ef"
+
+"@govuk-frontend/input@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/input/-/input-0.0.26-alpha.tgz#a25a0852a9a0e4968792320d9983c6769759dcdd"
+  dependencies:
+    "@govuk-frontend/error-message" "^0.0.26-alpha"
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/label" "^0.0.26-alpha"
+
+"@govuk-frontend/label@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/label/-/label-0.0.26-alpha.tgz#35f2d172ef75676a091670a4c0f54b2a0e61da1b"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/panel@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/panel/-/panel-0.0.26-alpha.tgz#bc9cc906ae60394bf8f0d0d33d4b46d33bf94336"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/phase-banner@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/phase-banner/-/phase-banner-0.0.26-alpha.tgz#2afc78b8422176d716d66491e938497b49479811"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/tag" "^0.0.26-alpha"
+
+"@govuk-frontend/radios@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/radios/-/radios-0.0.26-alpha.tgz#0df1bf22ae6f25789ed0188c2c746eb98ff9f49d"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/label" "^0.0.26-alpha"
+
+"@govuk-frontend/select@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/select/-/select-0.0.26-alpha.tgz#964675ddc1774fc05307d48374a8079de141d5b1"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/label" "^0.0.26-alpha"
+
+"@govuk-frontend/skip-link@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/skip-link/-/skip-link-0.0.26-alpha.tgz#96a16cb2465a53bee000db847107b1136a621b48"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/table@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/table/-/table-0.0.26-alpha.tgz#4e7c0972b81bffc6d64dd10eef693a027f793ece"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/tag@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/tag/-/tag-0.0.26-alpha.tgz#6622ef09ef6d21e030b96cc0f79ad65baf3c469e"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
+"@govuk-frontend/textarea@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/textarea/-/textarea-0.0.26-alpha.tgz#3237390501be1dd9c94b5c87d84e243aefe0491c"
+  dependencies:
+    "@govuk-frontend/error-message" "^0.0.26-alpha"
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+    "@govuk-frontend/label" "^0.0.26-alpha"
+
+"@govuk-frontend/warning-text@^0.0.26-alpha":
+  version "0.0.26-alpha"
+  resolved "https://registry.yarnpkg.com/@govuk-frontend/warning-text/-/warning-text-0.0.26-alpha.tgz#7fdc1bdb58044026691928874c77ad020d306f10"
+  dependencies:
+    "@govuk-frontend/globals" "^0.0.26-alpha"
+
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -10289,6 +10472,14 @@ sass-graph@^2.2.4:
     lodash "^4.0.0"
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
+
+sass-mq@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/sass-mq/-/sass-mq-3.3.2.tgz#3472e04c31a432bcd55b3b604edc72ae9a4def1a"
+
+sass-mq@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/sass-mq/-/sass-mq-4.0.2.tgz#aa8f1609a074bf4f5e5e93bdff31def993cc1ee1"
 
 sax@>=0.6.0, sax@^1.2.4, sax@~1.2.1:
   version "1.2.4"
