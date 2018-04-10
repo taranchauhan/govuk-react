@@ -1,8 +1,7 @@
 /* eslint-disable */
-// const govukFrontendToolkitColours = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!../../../node_modules/@govuk-frontend/back-link/_back-link.scss');
-const gds = require(`sass-extract-loader?{"plugins": ["sass-extract-js"]}!../../../node_modules/@govuk-frontend/globals/settings/_colours-palette.scss`);
-export const COLOUR = gds;
-console.log('govuk_frontend_toolkit colours', COLOUR);
+const GDS = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!../../../node_modules/@govuk-frontend/back-link/_back-link.scss'); // fails because of folder specific dependency
+// const GDS = require(`sass-extract-loader?{"plugins": ["sass-extract-js"]}!../../../node_modules/@govuk-frontend/globals/settings/_colours-palette.scss`); // this works because no dependency is required
+console.log('GDS', GDS);
 /* eslint-enable */
 
 
