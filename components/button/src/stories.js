@@ -3,6 +3,7 @@ import { withKnobs } from '@storybook/addon-knobs/react';
 
 import Button, {
   ButtonStart,
+  ButtonCustomStyles,
   ButtonStartIcon,
   ButtonDisabled,
   ButtonDisabledStartIcon,
@@ -13,6 +14,8 @@ const stories = storiesOf('Button', module);
 stories.addDecorator(withKnobs);
 
 stories.add('Button text', Button);
+
+stories.add('Button with custom styles', ButtonCustomStyles);
 
 stories.add('Start', ButtonStart);
 
